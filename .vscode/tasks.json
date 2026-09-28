@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Launch Mobile Emulator (Pixel 9 Pro)",
+            "type": "shell",
+            "command": "flutter emulators --launch Pixel_9_Pro",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Flutter Run on Mobile Emulator",
+            "type": "shell",
+            "command": "flutter run -d Pixel_9_Pro",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Flutter Devices List",
+            "type": "shell",
+            "command": "flutter devices",
+            "problemMatcher": []
+        }
+    ]
+}
